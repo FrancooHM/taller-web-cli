@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="TallerWebApp">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="normalize.css" media="screen" title="no title">
+  <link rel="stylesheet" href="skeleton.css" media="screen" title="no title">
+  <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+  <script type="text/javascript" src="app_angular.js"></script>
+</head>
+
+<body ng-controller="MainController">
+  <div class="container">
+    <div class="row">
+      <h1>Taller Web Javascript: </h1>
+      <h2 id="content">{{data}}</h2>
+    </div>
+
+    <div class="row">
+      <button ng-click="getData()">
+        HTTP GET
+      </button>
+    </div>
+  </div>
+</body>
+
+</html>
