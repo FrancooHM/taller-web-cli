@@ -1,0 +1,14 @@
+{
+  "name": "taller-web-client",
+  "description": "",
+  "main": "app_angular.js",
+  "authors": [
+    "Franco Rabaglia"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/FrancooHM/taller-web-cli",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "angular": "^1.5.8"
+  }
+}
